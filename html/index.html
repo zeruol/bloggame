@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogGames</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <a href="#"><img src="/images/download (24).jpg" alt="BlogGames Logo"></a>
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li class="dropdown">
+                    <button class="dropdown-toggle" aria-expanded="false">GAMES ▾</button>
+                    <div class="dropdown-content games-dropdown">
+                        <a href="https://www.minecraft.net/en-us" class="game-link" data-game="minecraft">Minecraft</a>
+                        <a href="https://wutheringwaves.kurogames.com/" class="game-link" data-game="wuthering-waves">Wuthering Waves</a>
+                        <a href="https://genshin.hoyoverse.com/m/vi/home" class="game-link" data-game="genshin-impact">Genshin Impact</a>
+                        <a href="https://www.arknights.global/" class="game-link" data-game="arknights">Arknights</a>
+                        <a href="https://www.pubgmobile.com/" class="game-link" data-game="pubg-mobile">PUBG Mobile</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropdown-toggle" aria-expanded="false">NEWS ▾</button>
+                    <div class="dropdown-content news-dropdown">
+                        <a href="news.html" class="news-link" data-news="GAMES-NEWS">Games news</a>
+                        <a href="#" class="news-link" data-news="ESPORT">Esport</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropdown-toggle" aria-expanded="false">COMMUNITIES ▾</button>
+                    <div class="dropdown-content communities-dropdown">
+                        <a href="#" class="communities-link" data-community="forums">Forums</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <button class="dropdown-toggle" aria-expanded="false">SUPPORT ▾</button>
+                    <div class="dropdown-content support-dropdown">
+                        <a href="#" class="support-link" data-support="faq">FAQ</a>
+                        <a href="#" class="support-link" data-support="contact-us">Contact Us</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="search-account">
+            <a href="login.html" id="login-btn">LOGIN</a>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section id="game-details" style="display: none;">
+            <div id="game-video"></div>
+            <div id="game-info">
+                <div id="game-link"></div>
+                <div id="game-description"></div>
+            </div>
+        </section>
+
+        <nav id="game-thumbnails">
+            <img src="/images/minecraft-background-cfljc4haleghnajo.jpg" alt="Minecraft" data-game="minecraft">
+            <img src="/images/WutheringWaves_Game_Rover_Wallpaper-1.jpg" alt="Wuthering Waves" data-game="wuthering-waves">
+            <img src="/images/thumb-1920-1099191.jpg" alt="Genshin Impact" data-game="genshin-impact">
+            <img src="/images/1034459.jpg" alt="Arknights" data-game="arknights">
+        </nav>
+    </main>
+    <script src="/js/script.js"></script>
+</body>
+</html>
