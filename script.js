@@ -30,25 +30,25 @@ document.addEventListener('DOMContentLoaded', () => {
             video: 'https://www.youtube.com/watch?v=MmB9b5njVbA',
             link: '/https://www.minecraft.net/en-us',
             description: 'Mô tả',
-            backgroundImage: '/images/minecraft-background-cfljc4haleghnajo.jpg'
+            backgroundImage: '/bloggame/images/minecraft-background-cfljc4haleghnajo.jpg'
         },
         'wuthering-waves': {
             video: 'https://www.youtube.com/watch?v=jT_dCQhT-ZI',
             link: 'https://wutheringwaves.kurogame.com/',
             description: 'Mô tả',
-            backgroundImage: '/images/WutheringWaves_Game_Rover_Wallpaper-1.jpg'
+            backgroundImage: '/bloggame/images/WutheringWaves_Game_Rover_Wallpaper-1.jpg'
         },
         'genshin-impact': {
             video: 'https://www.youtube.com/watch?v=VW7lkG8b74Q',
             link: 'https://genshin.hoyoverse.com/',
             description: 'Mô tả',
-            backgroundImage: '/images/thumb-1920-1099191.jpg'
+            backgroundImage: '/bloggame/images/thumb-1920-1099191.jpg'
         },
         'arknights': {
             video: 'https://www.youtube.com/watch?v=--xJQ5oNcCA',
             link: 'https://arknights.global/',
             description: 'Mô tả',
-            backgroundImage: '/images/1034459.jpg'
+            backgroundImage: '/bloggame/images/1034459.jpg'
         }
     };
 
