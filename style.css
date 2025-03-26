@@ -146,7 +146,7 @@ a {
 /* Specific Dropdown Backgrounds */
 /* Default Background */
 .games-dropdown, .news-dropdown, .communities-dropdown, .support-dropdown {
-    background-image: url("/images/images.png");
+    background-image: url("./images/images.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -155,34 +155,34 @@ a {
 
 /* Games Dropdown */
 .games-dropdown a[data-game="minecraft"]::before {
-    background-image: url("/images/minecraft-background-cfljc4haleghnajo.jpg");
+    background-image: url("./images/minecraft-background-cfljc4haleghnajo.jpg");
 }
 
 .games-dropdown a[data-game="wuthering-waves"]::before {
-    background-image: url("/images/WutheringWaves_Game_Rover_Wallpaper-1.jpg");
+    background-image: url("./images/WutheringWaves_Game_Rover_Wallpaper-1.jpg");
 }
 
 .games-dropdown a[data-game="genshin-impact"]::before {
-    background-image: url("/images/thumb-1920-1099191.jpg");
+    background-image: url("./images/thumb-1920-1099191.jpg");
 }
 
 .games-dropdown a[data-game="arknights"]::before {
-    background-image: url("/images/1034459.jpg");
+    background-image: url("./images/1034459.jpg");
 }
 
 
 .games-dropdown a[data-game="pubg-mobile"]::before {
-    background-image: url("/images/pubg-mobile-game-image-4.jpg");
+    background-image: url("./images/pubg-mobile-game-image-4.jpg");
 }
 
 
 /* News Dropdown */
 .news-dropdown a[data-news="GAMES-NEWS"]::before {
-    background-image: url("/images/3610756-biggest-game-news-2019-year-in-review-nologo-2.jpg");
+    background-image: url("./images/3610756-biggest-game-news-2019-year-in-review-nologo-2.jpg");
 }
 
 .news-dropdown a[data-news="ESPORT"]::before {
-    background-image: url("/images/t1-lap-ky-luc-voi-chuc-vo-dich-lmht-the-gioi-thu-4-241103014627.webp");
+    background-image: url("./images/t1-lap-ky-luc-voi-chuc-vo-dich-lmht-the-gioi-thu-4-241103014627.webp");
 }
 
 /* Communities Dropdown */
