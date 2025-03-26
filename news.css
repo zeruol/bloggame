@@ -54,7 +54,7 @@ body {
 
 /* Ảnh nền riêng cho từng game */
 .game-btn.minecraft {
-    background-image: url('./images/minecraft-background-cfljc4haleghnajo.jpg');
+    background-image: url('/bloggame/images/minecraft-background-cfljc4haleghnajo.jpg');
 }
 
 .game-btn.wuthering {
