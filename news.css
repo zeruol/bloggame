@@ -62,19 +62,19 @@ body {
 }
 
 .game-btn.genshin {
-    background-image: url('./images/thumb-1920-1099191.jpg');
+    background-image: url('/bloggame/images/thumb-1920-1099191.jpg');
 }
 
 .game-btn.arknights {
-    background-image: url('./images/1034459.jpg');
+    background-image: url('/bloggame/images/1034459.jpg');
 }
 
 .game-btn.pubg {
-    background-image: url('./images/pubg-mobile-game-image-4.jpg');
+    background-image: url('/bloggame/images/pubg-mobile-game-image-4.jpg');
 }
 
 .game-btn.Other {
-    background-image: url('./images/cyberpunk-asus-rog-3840x2160-19780.jpg');
+    background-image: url('/bloggame/images/cyberpunk-asus-rog-3840x2160-19780.jpg');
 }
 
 /* Hiệu ứng hover */
