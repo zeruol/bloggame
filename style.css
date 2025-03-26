@@ -146,7 +146,7 @@ a {
 /* Specific Dropdown Backgrounds */
 /* Default Background */
 .games-dropdown, .news-dropdown, .communities-dropdown, .support-dropdown {
-    background-image: url("images/images.png");
+    background-image: url("/images/images.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
