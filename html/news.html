@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game News</title>
+    <link rel="stylesheet" href="news.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Thanh điều hướng -->
+        <nav class="nav">
+            <button class="home-btn" onclick="goHome()">Trang chủ
+            </button>
+            <button class="game-btn minecraft" data-game="minecraft">Minecraft</button>
+            <button class="game-btn wuthering" data-game="wuthering">Wuthering Waves</button>
+            <button class="game-btn genshin" data-game="genshin">Genshin Impact</button>
+            <button class="game-btn arknights" data-game="arknights">Arknights</button>
+            <button class="game-btn pubg" data-game="pubg">PUBG Mobile</button>
+            <button class="game-btn Other" data-game="Other">Other</button>
+        </nav>
+
+        <!-- Khu vực hiển thị tin tức -->
+        <div id="news-content" class="grid"></div>
+    </div>
+
+    <script src="news.js"></script>
+</body>
+</html>
