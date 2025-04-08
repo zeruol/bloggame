@@ -144,7 +144,7 @@ a {
 }
 
 .games-dropdown a[data-game="sinh-ton"]::before {
-    background-image: url("/images/minecraft-background-cfljc4haleghnajo.jpg");
+    background-image: url("./images/minecraft-background-cfljc4haleghnajo.jpg");
 }
 
 .games-dropdown a[data-game="hanh-dong"]::before {
