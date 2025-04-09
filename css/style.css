@@ -144,7 +144,7 @@ a {
 }
 
 .games-dropdown a[data-game="sinh-ton"]::before {
-    background-image: url("./images/minecraft-background-cfljc4haleghnajo.jpg");
+    background-image: url("images/minecraft-background-cfljc4haleghnajo.jpg");
 }
 
 .games-dropdown a[data-game="hanh-dong"]::before {
@@ -152,7 +152,7 @@ a {
 }
 
 .games-dropdown a[data-game="nhap-vai"]::before {
-    background-image: url("/images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg");
+    background-image: url("../images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg");
 }
 
 .games-dropdown a[data-game="FPS-TPS"]::before {
