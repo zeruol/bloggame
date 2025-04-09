@@ -152,11 +152,11 @@ a {
 }
 
 .games-dropdown a[data-game="nhap-vai"]::before {
-    background-image: url("../images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg");
+    background-image: url("./images/Vvvbbsi3774hfiaoolfb_1920x1040.jpg");
 }
 
 .games-dropdown a[data-game="FPS-TPS"]::before {
-    background-image: url("/images/capsule_616x353.jpg");
+    background-image: url("../images/capsule_616x353.jpg");
 }
 
 .games-dropdown a[data-game="chien-luoc"]::before {
